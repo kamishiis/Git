@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  9 JAN 2019 10:17
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  9 JAN 2019 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**c:/Users/b1015237/Documents/GitHub/soturon/main
-(c:/Users/b1015237/Documents/GitHub/soturon/main.tex
+**c:/Users/b1015237/Documents/GitHub/Git/soturon/main
+(c:/Users/b1015237/Documents/GitHub/Git/soturon/main.tex
 pLaTeX2e <2018-04-01>+1 (based on LaTeX2e <2018-04-01> patch level 2)
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./funthesis.cls
@@ -55,6 +55,9 @@ File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 \openout2 = `Structure/Author.aux'.
 
 (./Structure/Author.tex) (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux
+
+LaTeX Warning: Label `fig:model' multiply defined.
+
 
 LaTeX Warning: Label `fig:model' multiply defined.
 
@@ -128,22 +131,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
-\tf@toc=\write3
-\openout3 = `main.toc'.
-
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 23.
+(Font)              using `JT1/mc/m/n' instead on input line 32.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 23.
+(Font)              using `JY1/mc/m/n' instead on input line 32.
 
 [1
 
 ])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [2])
 \openout2 = `Structure/Introduction.aux'.
 
  (./Structure/Introduction.tex
@@ -153,16 +156,23 @@ File: figures/IoT_device.eps Graphic file (type eps)
 
 
 
-]) [2]
+] [2]
+File: figures/test.eps Graphic file (type eps)
+ <figures/test.eps>
+Overfull \hbox (8.79134pt too wide) in paragraph at lines 29--31
+ [][] 
+ []
+
+[3]) [4]
 \openout2 = `Structure/Related_research.aux'.
 
  (./Structure/Related_research.tex
 第 2 章
-) [3
+) [5
 
 
 
-] [4]
+] [6]
 \openout2 = `Structure/symbol.aux'.
 
  (./Structure/symbol.tex
@@ -172,7 +182,7 @@ File: figures/VM.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5
+[7
 
 
 
@@ -182,40 +192,43 @@ File: figures/system.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7]
+[8] [9]
 File: figures/CPU.eps Graphic file (type eps)
  <figures/CPU.eps>
 File: figures/mem.eps Graphic file (type eps)
- <figures/mem.eps>) [8]
+ <figures/mem.eps>) [10]
 \openout2 = `Structure/strace.aux'.
 
  (./Structure/strace.tex
 第 4 章
-[9
+[11
 
 
 
-] [10]
+] [12]
 File: figures/system.eps Graphic file (type eps)
- <figures/system.eps>) [11]
+ <figures/system.eps>) [13]
 \openout2 = `Structure/Consider.aux'.
 
  (./Structure/Consider.tex
 第 5 章
-) [12
+[14
+
+
+
+]) [15]
+\openout2 = `Structure/Conclusion.aux'.
+
+ (./Structure/Conclusion.tex
+第 6 章
+) [16
 
 
 
 ]
-\openout2 = `Structure/Conclusion.aux'.
-
-
-No file Structure/Conclusion.tex.
 \openout2 = `Structure/Acknowledgments.aux'.
 
-(./Structure/Acknowledgments.tex) [13
-
-
+ (./Structure/Acknowledgments.tex) [17
 
 
 
@@ -239,30 +252,30 @@ Overfull \hbox (30.44559pt too wide) in paragraph at lines 4--5
 \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h30/html/nd111200.html\OML/cmm/m/it/10.95 >\OT1/cmr/m/n/10.95 (\JY1/mc/m/n/10.95 参
  []
 
-) [14
+) [18
 
 
 
 ]
 \openout2 = `Structure/Appendix.aux'.
 
- (./Structure/Appendix.tex [15
+ (./Structure/Appendix.tex [19
 
 
 
-] [16
+] [20
 
 ] (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [17
+ [21
 
 ] (./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-) [18
+) [22
 
 ] (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
 
@@ -273,12 +286,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 875 strings out of 493281
- 11255 string characters out of 6148127
- 84914 words of memory out of 5000000
- 4765 multiletter control sequences out of 15000+600000
+ 880 strings out of 493281
+ 11370 string characters out of 6148127
+ 84915 words of memory out of 5000000
+ 4767 multiletter control sequences out of 15000+600000
  17885 words of font info for 69 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 27i,5n,21p,2197b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,6n,27p,2201b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (21 pages, 55168 bytes).
+Output written on main.dvi (26 pages, 67460 bytes).
