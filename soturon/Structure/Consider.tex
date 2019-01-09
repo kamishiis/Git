@@ -3,11 +3,25 @@
 
 \section{システムコール呼び出し履歴を用いた検知手法による定常的な動作負荷の評価}
 
-Java言語との比較では，惨敗であり，FUNは2倍の
-記述量を必要とした．しかし，これは，Javaのもつ
-パッケージIKURAが非常に強力であるためで，
-同一機能をもつライブラリを用意することにより，
-FUNにも同様の能力を持たせることができることが判明した．
+IoTデバイスにマルウェアが動作していない状況下において，提案した検知システムによるマルウェア探索動作によってIoTデバイス本来の動作が阻害されていないことを評価するために，3.4節で述べたように，LinuxOSを対象とする既存のアンチウィルスソフトであるClam AVを動作させた状態のCPU，メモリの使用率を基準値とし，提案した検知システムによってMiraiが動作していない状況での，CPU，メモリの使用率についてsarコマンドを用いて1分間計測を行った．
+sarコマンドを用いて得たCPU，メモリの使用率について，Clam AVと比較を行った結果が図○，○になる．
+ 
+\begin{figure}[h]
+    \centering
+       \includegraphics[width=120mm]{figures/test.eps}
+    \label{fig:model}
+        \begin{center}図○　IoTデバイス上でマルウェアが動作していない状況におけるマルウェア探索のメモリ使用率\end{center}
+    \end{figure}
+  
+\begin{figure}[h]
+        \centering
+           \includegraphics[width=120mm]{figures/test.eps}
+        \label{fig:model}
+        \begin{center}図○　IoTデバイス上でマルウェアが動作していない状況におけるマルウェア探索のCPU使用率\end{center}
+\end{figure}
+   
+ Clam AntiVirusを利用した場合には，平均CPU使用率が○\%，メモリ使用率は○\%となった．提案した検知手法では，平均CPU使用率が○\%，メモリ使用率が○\%となった．メモリ使用率は比較対象のClam AntiVirusと提案した検知手法では○\%減，CPU使用率は，Clam AntiVirusに対して提案した検知手法は○\%減となった
+
 
 \section{Miraiとその亜種マルウェアを対象とする判別性能評価}
 ハニーポットを用いてDDoS攻撃を行うマルウェアを収集し，収集したマルウェアを検体として用いて，システムコール呼び出し履歴を用いた検知手法の検知精度の評価を行った．
