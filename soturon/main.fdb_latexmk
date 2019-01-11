@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1547210770 "c:/Users/defalt/Documents/GitHub/Git/soturon/main.tex" "main.pdf" "main" 1547210770
+["pdflatex"] 1547212502 "c:/Users/defalt/Documents/GitHub/Git/soturon/main.tex" "main.pdf" "main" 1547212502
   "Structure/Author.tex" 1547022948 1479 d6e2ebce26b143ebb4679024c90ceba5 ""
   "Structure/Overview.tex" 1547022948 2263 8a973e6e4c18bfc1945d34c8ebbd6cfd ""
   "c:/Users/defalt/Documents/GitHub/Git/soturon/main.tex" 1547059757 915 940263c369f3977521d66254ec7bffe6 ""
@@ -26,11 +26,11 @@
   "c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1546943470 4216517 9492ed44a12f96610dc49477a91ed574 ""
   "c:/texlive/2018/texmf.cnf" 1546943369 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "funthesis.cls" 1547022948 36116 ac7536e2cf6b64e17a0b782879509a48 ""
-  "main.aux" 1547210770 9 a94a2480d3289e625eea47cd1b285758 ""
+  "main.aux" 1547212502 9 a94a2480d3289e625eea47cd1b285758 ""
   "main.tex" 1547059757 915 940263c369f3977521d66254ec7bffe6 ""
   (generated)
+  "main.log"
   "main.pdf"
   "main.aux"
   "Structure/Overview.aux"
   "Structure/Author.aux"
-  "main.log"
