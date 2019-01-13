@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  13 JAN 2019 16:26
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  13 JAN 2019 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -81,7 +81,7 @@ LaTeX Warning: Label `fig:model' multiply defined.
 
 LaTeX Warning: Label `fig:model' multiply defined.
 
-) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux))
+) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -169,7 +169,7 @@ File: figures/IoT_device.eps Graphic file (type eps)
 ] [2]
 File: figures/test.eps Graphic file (type eps)
  <figures/test.eps>
-Overfull \hbox (8.79134pt too wide) in paragraph at lines 31--33
+Overfull \hbox (8.79134pt too wide) in paragraph at lines 33--35
  [][] 
  []
 
@@ -178,11 +178,11 @@ Overfull \hbox (8.79134pt too wide) in paragraph at lines 31--33
 
  (./Structure/Related_research.tex
 第 2 章
-) [5
+[5
 
 
 
-] [6]
+]) [6]
 \openout2 = `Structure/symbol.aux'.
 
  (./Structure/symbol.tex
@@ -271,7 +271,24 @@ Overfull \hbox (30.44559pt too wide) in paragraph at lines 4--5
 
 
 
-] (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux))
+]
+\openout2 = `Structure/Appendix.aux'.
+
+ (./Structure/Appendix.tex (./main.lof)
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+ [21
+
+
+
+] (./main.lot)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+) [22
+
+] (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -280,12 +297,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 864 strings out of 493281
- 11147 string characters out of 6148127
- 84652 words of memory out of 5000000
- 4764 multiletter control sequences out of 15000+600000
+ 880 strings out of 493281
+ 11370 string characters out of 6148127
+ 84915 words of memory out of 5000000
+ 4767 multiletter control sequences out of 15000+600000
  17885 words of font info for 69 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,6n,27p,1950b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,6n,27p,1863b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (24 pages, 72236 bytes).
+Output written on main.dvi (26 pages, 74104 bytes).

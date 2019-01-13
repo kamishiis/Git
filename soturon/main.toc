@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {2.1.1}DDoS攻撃を行うマルウェアの分析}{5}
 \contentsline {subsection}{\numberline {2.1.2}動的解析を行ったマルウェア検知の研究}{5}
 \contentsline {section}{\numberline {2.2}関連技術}{6}
-\contentsline {subsection}{\numberline {2.2.1}Sophos Antivirus for Linux}{6}
+\contentsline {subsection}{\numberline {2.2.1}Arbor Networks Peakflow}{6}
 \contentsline {subsection}{\numberline {2.2.2}Clam AntiVirus}{6}
 \contentsline {chapter}{\numberline {第3章}シンボルテーブルを用いた検知手法の提案}{7}
 \contentsline {section}{\numberline {3.1}アプローチ}{7}
