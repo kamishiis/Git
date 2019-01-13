@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.8)  13 JAN 2019 15:55
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  13 JAN 2019 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**c:/Users/defalt/Documents/GitHub/Git/soturon/main
-(c:/Users/defalt/Documents/GitHub/Git/soturon/main.tex
+**c:/Users/b1015237/Documents/GitHub/Git/soturon/main
+(c:/Users/b1015237/Documents/GitHub/Git/soturon/main.tex
 pLaTeX2e <2018-04-01>+1 (based on LaTeX2e <2018-04-01> patch level 2)
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./funthesis.cls
@@ -81,7 +81,7 @@ LaTeX Warning: Label `fig:model' multiply defined.
 
 LaTeX Warning: Label `fig:model' multiply defined.
 
-) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
+) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -271,28 +271,7 @@ Overfull \hbox (30.44559pt too wide) in paragraph at lines 4--5
 
 
 
-]
-\openout2 = `Structure/Appendix.aux'.
-
- (./Structure/Appendix.tex [21
-
-
-
-] [22
-
-] (./main.lof)
-\tf@lof=\write4
-\openout4 = `main.lof'.
-
- [23
-
-] (./main.lot)
-\tf@lot=\write5
-\openout5 = `main.lot'.
-
-) [24
-
-] (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
+] (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -301,12 +280,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 880 strings out of 493281
- 11364 string characters out of 6148127
- 84915 words of memory out of 5000000
- 4767 multiletter control sequences out of 15000+600000
+ 864 strings out of 493281
+ 11147 string characters out of 6148127
+ 84652 words of memory out of 5000000
+ 4764 multiletter control sequences out of 15000+600000
  17885 words of font info for 69 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,6n,27p,1948b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,6n,27p,1950b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (28 pages, 73512 bytes).
+Output written on main.dvi (24 pages, 72236 bytes).
