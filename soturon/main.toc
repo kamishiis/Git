@@ -1,0 +1,32 @@
+\contentsline {chapter}{\numberline {第1章}序論}{1}
+\contentsline {section}{\numberline {1.1}背景}{1}
+\contentsline {section}{\numberline {1.2}IoTデバイスで検知を行う必要性}{2}
+\contentsline {section}{\numberline {1.3}マルウェアMiraiの概要}{3}
+\contentsline {section}{\numberline {1.4}研究目的}{4}
+\contentsline {section}{\numberline {1.5}論文の構成}{4}
+\contentsline {chapter}{\numberline {第2章}関連研究・技術}{5}
+\contentsline {section}{\numberline {2.1}関連研究}{5}
+\contentsline {subsection}{\numberline {2.1.1}DDoS攻撃を行うマルウェアの分析}{5}
+\contentsline {subsection}{\numberline {2.1.2}動的解析を行ったマルウェア検知の研究}{5}
+\contentsline {section}{\numberline {2.2}関連技術}{6}
+\contentsline {subsection}{\numberline {2.2.1}Arbor Networks Peakflow}{6}
+\contentsline {subsection}{\numberline {2.2.2}Clam AntiVirus}{6}
+\contentsline {chapter}{\numberline {第3章}シンボルテーブルを用いた検知手法の提案}{7}
+\contentsline {section}{\numberline {3.1}検知手法へのアプローチ}{7}
+\contentsline {section}{\numberline {3.2}Miraiソースコードを用いた稼働調査}{7}
+\contentsline {section}{\numberline {3.3}シンボルテーブルを用いた検知手法の提案}{8}
+\contentsline {section}{\numberline {3.4}マルウェア探索動作による負荷と検知における制約事項}{10}
+\contentsline {chapter}{\numberline {第4章}システムコール呼び出し履歴を用いた検知手法の提案}{12}
+\contentsline {section}{\numberline {4.1}新たな検知手法の必要性}{12}
+\contentsline {section}{\numberline {4.2}Miraiの特徴的な動作に基づく検知条件知手法}{12}
+\contentsline {section}{\numberline {4.3}誤検知の可能性}{13}
+\contentsline {section}{\numberline {4.4}straceコマンドによる監視対象のプロセスの実行速度の調査}{14}
+\contentsline {section}{\numberline {4.5}システムコール呼び出し履歴を用いた検知手法の提案}{14}
+\contentsline {chapter}{\numberline {第5章}評価実験}{16}
+\contentsline {section}{\numberline {5.1}システムコール呼び出し履歴を用いた検知手法による定常的な動作負荷の評価}{16}
+\contentsline {section}{\numberline {5.2}Miraiとその亜種マルウェアを対象とする判別性能評価}{17}
+\contentsline {subsection}{\numberline {5.2.1}ハニーポットによるマルウェアの収集}{17}
+\contentsline {subsection}{\numberline {5.2.2}提案システムによるマルウェアの検知精度評価}{18}
+\contentsline {chapter}{\numberline {第6章}結論}{20}
+\contentsline {section}{\numberline {6.1}まとめ}{20}
+\contentsline {section}{\numberline {6.2}今後の展望}{20}
