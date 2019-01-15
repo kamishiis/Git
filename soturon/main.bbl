@@ -1,5 +1,20 @@
 \begin{thebibliography}{10}
 
+\bibitem{ARBOR}
+ATBOR.
+\newblock Arbor networks peakflow^^c2^^ae 7.0 が、 ddos
+  攻撃検知とミティゲーションの時間を大幅に短縮.
+\newblock {<http://jp.arbornetworks.com/lorem-post-3/>}.
+\newblock {入手先 <http://jp.arbornetworks.com/lorem-post-3/> 参照2019-1-6}.
+
+\bibitem{ClamAV}
+ClamAV.
+\newblock Arbor networks peakflow^^c2^^ae 7.0 が、 ddos
+  攻撃検知とミティゲーションの時間を大幅に短縮.
+\newblock {<http://jp.arbornetworks.com/lorem-post-3/>}.
+\newblock {入手先 \textless http://jp.arbornetworks.com/lorem-post-3/
+  \textlessh 参照2019-1-6}.
+
 \bibitem{IoT}
 総務省.
 \newblock Iotデバイスの急速な普及 ,情報通信白書（オンライン）.

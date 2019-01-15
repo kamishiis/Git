@@ -4,23 +4,24 @@
 \section{システムコール呼び出し履歴を用いた検知手法による定常的な動作負荷の評価}
 
 IoTデバイスにマルウェアが動作していない状況下において，提案した検知システムによるマルウェア探索動作によってIoTデバイス本来の動作が阻害されていないことを評価するために，3.4節で述べたように，LinuxOSを対象とする既存のアンチウィルスソフトであるClam AVを動作させた状態のCPU，メモリの使用率を基準値とし，提案した検知システムによってMiraiが動作していない状況での，CPU，メモリの使用率についてsarコマンドを用いて1分間計測を行った．
-sarコマンドを用いて得たCPU，メモリの使用率について，Clam AVと比較を行った結果が図○，○になる．
+sarコマンドを用いて得たCPU，メモリの使用率について，Clam AVと比較を行った結果が図\ref{fig:strace_cpu}，\ref{fig:strace_mem}になる．ClamAVを動作させた状態のIoTデバイスのCPU使用率，メモリ使用率の値は3．4節で計測したデータを用いた．
  
 \begin{figure}[h]
     \centering
-       \includegraphics[width=120mm]{figures/test.eps}
-    \label{fig:model}
-        \begin{center}図○　IoTデバイス上でマルウェアが動作していない状況におけるマルウェア探索のメモリ使用率\end{center}
+       \includegraphics[width=120mm]{figures/strace_cpu.eps}
+    \caption{システムコール呼び出し履歴によるマルウェア探索動作とClamAVとのCPU使用率の比較}
+        \label{fig:strace_cpu}
 \end{figure}
   
 \begin{figure}[h]
         \centering
-           \includegraphics[width=120mm]{figures/test.eps}
-        \label{fig:model}
-        \begin{center}図○　IoTデバイス上でマルウェアが動作していない状況におけるマルウェア探索のCPU使用率\end{center}
+           \includegraphics[width=120mm]{figures/strace_mem.eps}
+        \caption{IoTデバイス上でマルウェアが動作していない状況におけるマルウェア探索のメモリ使用率}
+        \label{fig:strace_mem}
 \end{figure}
+
    
- Clam AntiVirusを利用した場合には，平均CPU使用率が○\%，メモリ使用率は○\%となった．提案した検知手法では，平均CPU使用率が○\%，メモリ使用率が○\%となった．メモリ使用率は比較対象のClam AntiVirusと提案した検知手法では○\%減，CPU使用率は，Clam AntiVirusに対して提案した検知手法は○\%減となった
+ Clam AntiVirusを利用した場合には，平均CPU使用率が24．27\%，メモリ使用率は7．92\%であり．提案した検知手法では，平均CPU使用率が0．57\%，メモリ使用率が4.08\%となった．メモリ使用率は比較対象のClam AntiVirusと提案した検知手法では97．6\%減，CPU使用率は，Clam AntiVirusに対して提案した検知手法は48．4\%減となった．
 
 
 \section{Miraiとその亜種マルウェアを対象とする判別性能評価}
@@ -40,12 +41,14 @@ sarコマンドを用いて得たCPU，メモリの使用率について，Clam 
     FPR & = & \frac{正規プログラムをマルウェアとして判別された検体数}{正規プログラムの総数}
 \end{eqnarray}
 
-提案システムによるプログラムの判別結果を表6に示し，Accuracy，TPR，TNR，FPR，FNRの結果を表7に示す．
+提案システムによるプログラムの判別結果を表\ref{tab:detect}に示し，Accuracy，TPR，TNR，FPR，FNRの結果を表\ref{tab:result}に示す．
 
 \newpage 
 
 \begin{table}[h]
     \centering
+    \caption{提案システムによるマルウェア判別結果}
+    \label{tab:detect}
 \begin{tabular}[t]{lccc}
     \hline
             &  &  \multicolumn{2}{c}{判別結果}  \\ \hline
@@ -57,6 +60,7 @@ sarコマンドを用いて得たCPU，メモリの使用率について，Clam 
 
 \begin{table}[h]
      \caption{プログラムの判別結果} 
+     \label{tab:result}
      \centering 
     \begin{tabular}{|c|c|c|c|c|} \hline 
     Accuracy & TPR    & TNR     & FNR    & FPR   \\ \hline
