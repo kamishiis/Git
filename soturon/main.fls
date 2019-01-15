@@ -24,8 +24,6 @@ INPUT Structure/Author.tex
 OUTPUT main.pdf
 INPUT main.aux
 INPUT main.aux
-INPUT Structure/Overview.aux
-INPUT Structure/Overview.aux
 OUTPUT main.aux
 INPUT c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
