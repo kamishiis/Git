@@ -10,6 +10,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces システムコール呼び出し履歴を用いた検知システムの概要}}{15}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces システムコール呼び出し履歴によるマルウェア探索動作とClamAVとのCPU使用率の比較}}{16}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces システムコール呼び出し履歴によるマルウェア探索動作とClamAVとのCPU使用率の比較}}{17}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces IoTデバイス上でマルウェアが動作していない状況におけるマルウェア探索のメモリ使用率}}{17}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ハニーポットのシステム概要図}}{18}
 \addvspace {10\p@ }
