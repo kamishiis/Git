@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  19 JAN 2019 19:28
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.8)  19 JAN 2019 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**c:/Users/b1015237/Documents/GitHub/Git/soturon/main
-(c:/Users/b1015237/Documents/GitHub/Git/soturon/main.tex
+**c:/Users/defalt/Documents/GitHub/Git/soturon/main
+(c:/Users/defalt/Documents/GitHub/Git/soturon/main.tex
 pLaTeX2e <2018-04-01>+1 (based on LaTeX2e <2018-04-01> patch level 2)
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./funthesis.cls
@@ -292,11 +292,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  935 strings out of 493281
- 12216 string characters out of 6148127
+ 12210 string characters out of 6148127
  85066 words of memory out of 5000000
  4815 multiletter control sequences out of 15000+600000
  18074 words of font info for 70 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,10n,27p,1854b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,10n,27p,1852b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (30 pages, 98712 bytes).
+Output written on main.dvi (30 pages, 99196 bytes).
