@@ -1,8 +1,8 @@
-PWD c:/Users/b1015237/Documents/GitHub/Git/soturon
+PWD c:/Users/defalt/Documents/GitHub/Git/soturon
 INPUT c:/texlive/2018/texmf.cnf
 INPUT c:/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/b1015237/Documents/GitHub/Git/soturon/main.tex
+INPUT c:/Users/defalt/Documents/GitHub/Git/soturon/main.tex
 OUTPUT main.log
 INPUT funthesis.cls
 INPUT funthesis.cls
