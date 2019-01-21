@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  21 JAN 2019 10:42
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  21 JAN 2019 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -117,11 +117,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 32.
+(Font)              using `JT1/mc/m/n' instead on input line 31.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 32.
+(Font)              using `JY1/mc/m/n' instead on input line 31.
 
 [1
 
@@ -142,22 +142,31 @@ File: figures/IoT_device.eps Graphic file (type eps)
 ] [2
 
 ]
+File: figures/env.eps Graphic file (type eps)
+ <figures/env.eps>
 File: figures/s.eps Graphic file (type eps)
- <figures/s.eps> [3]
-Overfull \hbox (30.19603pt too wide) in paragraph at lines 46--60
+ <figures/s.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3]
+Overfull \hbox (30.19603pt too wide) in paragraph at lines 58--72
  [][][][] 
  []
 
-) [4]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]) [5]
 \openout2 = `Structure/Related_research.aux'.
 
  (./Structure/Related_research.tex
 第 2 章
-[5
+[6
 
 
 
-]) [6]
+]) [7]
 \openout2 = `Structure/symbol.aux'.
 
  (./Structure/symbol.tex
@@ -183,13 +192,13 @@ File: figures/VM.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7
+[8
 
 
 
-] [8]
+] [9]
 File: figures/system.eps Graphic file (type eps)
- <figures/system.eps> [9]
+ <figures/system.eps> [10]
 File: figures/cpu.eps Graphic file (type eps)
  <figures/cpu.eps>
 
@@ -200,23 +209,23 @@ File: figures/mem.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [10] [11]
+) [11] [12]
 \openout2 = `Structure/strace.aux'.
 
  (./Structure/strace.tex
 第 4 章
-[12
+[13
 
 
 
-] [13] [14]
+] [14] [15]
 File: figures/strace.eps Graphic file (type eps)
- <figures/strace.eps>) [15]
+ <figures/strace.eps>) [16]
 \openout2 = `Structure/Consider.aux'.
 
  (./Structure/Consider.tex
 第 5 章
-[16
+[17
 
 
 
@@ -224,23 +233,23 @@ File: figures/strace.eps Graphic file (type eps)
 File: figures/strace_cpu.eps Graphic file (type eps)
  <figures/strace_cpu.eps>
 File: figures/strace_mem.eps Graphic file (type eps)
- <figures/strace_mem.eps> [17
+ <figures/strace_mem.eps> [18
 
 ]
 File: figures/honey.eps Graphic file (type eps)
- <figures/honey.eps> [18]) [19] [20]
+ <figures/honey.eps> [19]) [20] [21]
 \openout2 = `Structure/Conclusion.aux'.
 
  (./Structure/Conclusion.tex
 第 6 章
-) [21
+) [22
 
 
 
-] [22]
+] [23]
 \openout2 = `Structure/Acknowledgments.aux'.
 
- (./Structure/Acknowledgments.tex) [23
+ (./Structure/Acknowledgments.tex) [24
 
 
 
@@ -257,7 +266,7 @@ Overfull \hbox (30.44559pt too wide) in paragraph at lines 4--6
 \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h30/html/nd111200.html\OML/cmm/m/it/10.95 >\OT1/cmr/m/n/10.95 (\JY1/mc/m/n/10.95 参
  []
 
-[24
+[25
 
 
 
@@ -273,14 +282,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
 []\OT1/cmr/m/n/10.95 Micheloosterhof:Cowrie\JY1/mc/m/n/10.95 ， 入手先 \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 https://itcweb.cc.affrc.go.jp/affrit/
  []
 
-) [25]
+) [26]
 \openout2 = `Structure/Appendix.aux'.
 
  (./Structure/Appendix.tex (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [26
+ [27
 
 
 
@@ -288,7 +297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-) [27
+) [28
 
 ] (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
 
@@ -296,12 +305,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 939 strings out of 493281
- 12250 string characters out of 6148127
- 85088 words of memory out of 5000000
- 4819 multiletter control sequences out of 15000+600000
+ 943 strings out of 493281
+ 12309 string characters out of 6148127
+ 85099 words of memory out of 5000000
+ 4822 multiletter control sequences out of 15000+600000
  18074 words of font info for 70 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,10n,27p,1854b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,24p,1854b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (31 pages, 105048 bytes).
+Output written on main.dvi (32 pages, 109280 bytes).
