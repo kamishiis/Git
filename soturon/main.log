@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  21 JAN 2019 12:13
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  21 JAN 2019 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -117,11 +117,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 31.
+(Font)              using `JT1/mc/m/n' instead on input line 32.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 31.
+(Font)              using `JY1/mc/m/n' instead on input line 32.
 
 [1
 
@@ -141,32 +141,32 @@ File: figures/IoT_device.eps Graphic file (type eps)
 
 ] [2
 
-]
+] [3]
 File: figures/env.eps Graphic file (type eps)
  <figures/env.eps>
 File: figures/s.eps Graphic file (type eps)
- <figures/s.eps>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3]
-Overfull \hbox (30.19603pt too wide) in paragraph at lines 58--72
+ <figures/s.eps> [4]
+Overfull \hbox (30.19603pt too wide) in paragraph at lines 62--76
  [][][][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4]) [5]
+[5]) [6]
 \openout2 = `Structure/Related_research.aux'.
 
  (./Structure/Related_research.tex
 第 2 章
-[6
+[7
 
 
 
-]) [7]
+]
+File: figures/arbor.eps Graphic file (type eps)
+ <figures/arbor.eps>
+Overfull \hbox (9.34738pt too wide) in paragraph at lines 25--26
+ [][] 
+ []
+
+) [8] [9]
 \openout2 = `Structure/symbol.aux'.
 
  (./Structure/symbol.tex
@@ -192,13 +192,13 @@ File: figures/VM.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8
+[10
 
 
 
-] [9]
+] [11]
 File: figures/system.eps Graphic file (type eps)
- <figures/system.eps> [10]
+ <figures/system.eps> [12]
 File: figures/cpu.eps Graphic file (type eps)
  <figures/cpu.eps>
 
@@ -209,23 +209,23 @@ File: figures/mem.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [11] [12]
+) [13] [14]
 \openout2 = `Structure/strace.aux'.
 
  (./Structure/strace.tex
 第 4 章
-[13
+[15
 
 
 
-] [14] [15]
+] [16] [17]
 File: figures/strace.eps Graphic file (type eps)
- <figures/strace.eps>) [16]
+ <figures/strace.eps>) [18]
 \openout2 = `Structure/Consider.aux'.
 
  (./Structure/Consider.tex
 第 5 章
-[17
+[19
 
 
 
@@ -233,63 +233,48 @@ File: figures/strace.eps Graphic file (type eps)
 File: figures/strace_cpu.eps Graphic file (type eps)
  <figures/strace_cpu.eps>
 File: figures/strace_mem.eps Graphic file (type eps)
- <figures/strace_mem.eps> [18
+ <figures/strace_mem.eps> [20
 
 ]
 File: figures/honey.eps Graphic file (type eps)
- <figures/honey.eps> [19]) [20] [21]
+ <figures/honey.eps> [21] [22]) [23]
 \openout2 = `Structure/Conclusion.aux'.
 
  (./Structure/Conclusion.tex
 第 6 章
-) [22
+) [24
 
 
 
-] [23]
+] [25]
 \openout2 = `Structure/Acknowledgments.aux'.
 
- (./Structure/Acknowledgments.tex) [24
+ (./Structure/Acknowledgments.tex) [26
 
 
 
 ]
 \openout2 = `Structure/Reference.aux'.
 
- (./Structure/Reference.tex
-Underfull \hbox (badness 3049) in paragraph at lines 4--6
-[]\JY1/mc/m/n/10.95 総務省 ： \OT1/cmr/m/n/10.95 IoT \JY1/mc/m/n/10.95 デバイスの急速な普及 \OT1/cmr/m/n/10.95 , \JY1/mc/m/n/10.95 情報通信白書 （ オンライン ） \OT1/cmr/m/n/10.95 , \JY1/mc/m/n/10.95 入手先
- []
-
-
-Overfull \hbox (30.44559pt too wide) in paragraph at lines 4--6
-\OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h30/html/nd111200.html\OML/cmm/m/it/10.95 >\OT1/cmr/m/n/10.95 (\JY1/mc/m/n/10.95 参
- []
-
-[25
+ (./Structure/Reference.tex [27
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
  (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-[]\OT1/cmr/m/n/10.95 Micheloosterhof:Cowrie\JY1/mc/m/n/10.95 ， 入手先 \OML/cmm/m/it/10.95 <\OT1/cmr/m/n/10.95 https://itcweb.cc.affrc.go.jp/affrit/
- []
-
-) [26]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+) [28]
 \openout2 = `Structure/Appendix.aux'.
 
  (./Structure/Appendix.tex (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [27
+ [29
 
 
 
@@ -297,7 +282,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-) [28
+) [30
 
 ] (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
 
@@ -305,12 +290,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 943 strings out of 493281
- 12309 string characters out of 6148127
- 85099 words of memory out of 5000000
- 4822 multiletter control sequences out of 15000+600000
+ 951 strings out of 493281
+ 12414 string characters out of 6148127
+ 85124 words of memory out of 5000000
+ 4829 multiletter control sequences out of 15000+600000
  18074 words of font info for 70 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 29i,10n,24p,1854b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,10n,25p,1904b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (32 pages, 109280 bytes).
+Output written on main.dvi (34 pages, 115800 bytes).

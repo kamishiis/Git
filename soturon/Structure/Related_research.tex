@@ -19,8 +19,13 @@ API呼び出しとそれに伴う経過時間とシステム負荷を用いた�
 \section{関連技術}
 
 \subsection{Arbor Networks Peakflow}
-
-Arbor Networks Peakflow\cite{Arbor}はトラフィック管理技術のNetFlowなどを使用してネットワーク全体をモニタリングし，DDoS攻撃の恐れがあるトラフィックを検知する．疑わしいトラフィックにてついては，DDoS攻撃をさ緩和せるTMSと呼ばれるに中継させ世紀のトラフィックだけを通信させる.このシステムではDDoS攻撃だと思われるトラフィックを検知してから30秒以内にDDoS攻撃の緩和動作を始める．
+Arbor Networks Peakflow\cite{Arbor}はArbor Networks社のサービスであり，Webサイトに届く前にDDoS攻撃を止めてしまうDDoS攻撃ソリューションとなっている．図\ref{fig:arbsys}のようにトラフィック管理技術のNetFlowなどを使用してネットワーク全体をモニタリングし，DDoS攻撃の恐れがあるトラフィックを検知する．疑わしいトラフィックにてついては，DDoS攻撃を緩和せるTMSと呼ばれるに中継させ世紀のトラフィックだけを通信させる.このシステムではDDoS攻撃だと思われるトラフィックを検知してから30秒以内にDDoS攻撃の緩和動作を始める．
+\begin{figure}[h]
+    \centering
+       \includegraphics[height=60mm]{figures/arbor.eps}
+       \caption{Arbor Networks Peakflowのシステム概要\cite{ar}}
+    \label{fig:arbsys}
+    \end{figure}
 
 \subsection{Clam AntiVirus}
 
