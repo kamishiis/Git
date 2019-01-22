@@ -10,9 +10,9 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces シンボルテーブルを用いたマルウェア探索動作とClamAVとのCPU使用率の比較}}{14}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces シンボルテーブルを用いたマルウェア探索動作とClamAVとのメモリ使用率の比較}}{14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces システムコール呼び出し履歴を用いた検知システムの概要}}{18}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces システムコール呼び出し履歴を用いた検知システムの概要}}{19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces システムコール呼び出し履歴によるマルウェア探索動作とClamAVとのCPU使用率の比較}}{20}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces IoTデバイス上でマルウェアが動作していない状況におけるマルウェア探索のメモリ使用率}}{20}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces ハニーポットのシステム概要図}}{21}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces システムコール呼び出し履歴によるマルウェア探索動作とClamAVとのCPU使用率の比較}}{21}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces IoTデバイス上でマルウェアが動作していない状況におけるマルウェア探索のメモリ使用率}}{21}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ハニーポットのシステム概要図}}{22}
 \addvspace {10\p@ }

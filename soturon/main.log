@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  21 JAN 2019 20:57
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  22 JAN 2019 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -218,14 +218,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-] [16] [17]
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
+ (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+ [16] [17]
 File: figures/strace.eps Graphic file (type eps)
- <figures/strace.eps>) [18]
+ <figures/strace.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [18] [19]
 \openout2 = `Structure/Consider.aux'.
 
  (./Structure/Consider.tex
 第 5 章
-[19
+[20
 
 
 
@@ -233,48 +244,41 @@ File: figures/strace.eps Graphic file (type eps)
 File: figures/strace_cpu.eps Graphic file (type eps)
  <figures/strace_cpu.eps>
 File: figures/strace_mem.eps Graphic file (type eps)
- <figures/strace_mem.eps> [20
+ <figures/strace_mem.eps> [21
 
 ]
 File: figures/honey.eps Graphic file (type eps)
- <figures/honey.eps> [21] [22]) [23]
+ <figures/honey.eps> [22] [23]) [24]
 \openout2 = `Structure/Conclusion.aux'.
 
  (./Structure/Conclusion.tex
 第 6 章
-) [24
+) [25
 
 
 
-] [25]
+] [26]
 \openout2 = `Structure/Acknowledgments.aux'.
 
- (./Structure/Acknowledgments.tex) [26
+ (./Structure/Acknowledgments.tex) [27
 
 
 
 ]
 \openout2 = `Structure/Reference.aux'.
 
- (./Structure/Reference.tex [27
+ (./Structure/Reference.tex [28
 
 
 
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 54.
- (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
-) [28]
+]) [29]
 \openout2 = `Structure/Appendix.aux'.
 
  (./Structure/Appendix.tex (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [29
+ [30
 
 
 
@@ -282,7 +286,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
-) [30
+) [31
 
 ] (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
 
@@ -290,12 +294,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 951 strings out of 493281
- 12414 string characters out of 6148127
- 85124 words of memory out of 5000000
- 4829 multiletter control sequences out of 15000+600000
+ 952 strings out of 493281
+ 12437 string characters out of 6148127
+ 84131 words of memory out of 5000000
+ 4830 multiletter control sequences out of 15000+600000
  18074 words of font info for 70 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 31i,10n,25p,1904b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,14n,25p,1915b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (34 pages, 115800 bytes).
+Output written on main.dvi (35 pages, 116840 bytes).

@@ -26,9 +26,23 @@ Miraiマルウェアは特徴的な動作として，サーバーにDDoS攻撃�
 \item IoTデバイスから複数の端末を遠隔操作しサーバー等の設定やログファイルを特定のサーバーへ転送
 \end{enumerate}
 %3つについて場合分けをしているので何番目の可能性について議論しているのか明示する
-straceを用いてシステムコールを確認し上記の動作が検知条件に一致するのか確認を行った．1つ目の，紛らわしいプログラムの例として，IoTデバイス上でsendto飲みを一定時間繰り返し呼び出すプログラムについて考える．sendtoが呼び出されるだけのプログラムでは，検知条件に一致しやすく誤検知する可能性がある．しかし，送信先のポートが23であり，送信されるメッセージの宛先がすべて別の宛先アドレスであるsendtoが呼び続ける正規プログラムが存在するとは考えにくい．IoTデバイスから複数の端末に向けてメッセージを送る動作として考えられるものが，wallやwriteなどIoTデバイスにtelnet，sshログインしている端末にメッセージを送るコマンドがある．wall，writeコマンドを実行してシステムコールを確認した結果が表2のようになる．%システムコールの結果を入れる
-表2のようにsendtoを呼び出すことが確認されなかったため，IoTデバイスから複数の端末に向けてメッセージを送信する場合には誤検知することがない．IoTデバイスから複数の端末を遠隔操作する方法について，sshやtelnet，parallel-sshといったリモートシェルを用いて手動でコマンドを入力して端末を操作する場合とスクリプトファイルなどで端末を自動的に操作させる2種類がある．IoTデバイスから複数端末に手動でコマンドを入力してファイルの転送などを行いシステムコールを確認したところ，連続のsendto呼び出しは見られなかった．スクリプトファイルを利用してファイルの転送を行う場合も，同様にsendtoを連続で呼び出していることを確認できなかった．sendtoだけを呼び出すプログラムをtelnet，sshを使用して端末上で実行した場合，%日本語おかしい
-本来はシステムコールであるsendtoが連続で呼び出されていたものがsendtoの次にwirteのシステムコールが呼び出されsendtoが2回以上連続で呼び出されていることが確認できなかった．sshやtelnetを利用して遠隔操作を行う場合や他の端末にメッセージを送信する場合にはsendtoが2回以上連続で呼び出されていることがないため誤検知することはないと考えられるため，これらの検知条件は妥当だと考える．
+straceを用いてシステムコールを確認し上記の動作が検知条件に一致するのか確認を行った．1の，紛らわしいプログラムの例として，IoTデバイス上でsendto飲みを一定時間繰り返し呼び出すプログラムについて考える．sendtoが呼び出されるだけのプログラムでは，検知条件に一致しやすく誤検知する可能性がある．しかし，送信先のポートが23であり，送信されるメッセージの宛先がすべて別の宛先アドレスであるsendtoが呼び続ける正規プログラムが存在するとは考えにくい．\par
+2のIoTデバイスから複数の端末に向けてメッセージを送る動作として考えられるものが，wallやwriteなどIoTデバイスにtelnet，sshログインしている端末にメッセージを送るコマンドがある．wall，writeコマンドを実行してシステムコールを確認した結果が表\ref{tab:write}のようになる．
+\begin{table}[h]
+   \caption{メッセージの送信時に呼び出されるシステムコール} 
+   \label{tab:write}
+   \centering
+   \begin{tabular}{|c|c|}
+   \hline
+   wall                                        & \multicolumn{1}{l|}{write}                                                                                                                     \\ \hline
+   read(0,"Hello World\textbackslash{}n",1024) & \begin{tabular}[c]{@{}c@{}}read(0,"Hello World\textbackslash{}n",1024)\\ write(1,"Hello World\textbackslash{}r\textbackslash{}n")\end{tabular} \\ \hline
+   read(0,"test\textbackslash{}n",1024)        & \begin{tabular}[c]{@{}c@{}}read(0,"test\textbackslash{}n",1024)\\ write(1,"test\textbackslash{}r\textbackslash{}n")\end{tabular}               \\ \hline
+   read(0,"Mirai\textbackslash{}n",1024)       & \begin{tabular}[c]{@{}c@{}}read(0,"Mirai\textbackslash{}n",1024)\\ write(1,"Mirai\textbackslash{}r\textbackslash{}n")\end{tabular}             \\ \hline
+   read(0,"Good-bye\textbackslash{}n",1024)    & \begin{tabular}[c]{@{}c@{}}read(0,"Good-bye\textbackslash{}n",1024)\\ write(1,"Good-bye\textbackslash{}r\textbackslash{}n")\end{tabular}       \\ \hline
+   \end{tabular}
+   \end{table}
+表\ref{tab:write}のようにsendtoを呼び出すことが確認されなかったため，IoTデバイスから複数の端末に向けてメッセージを送信する場合には誤検知することがない．\par
+3のIoTデバイスから複数の端末を遠隔操作する方法について，sshやtelnet，parallel-sshといったリモートシェルを用いて手動でコマンドを入力して端末を操作する場合とスクリプトファイルなどで端末を自動的に操作させる2種類がある．IoTデバイスから複数端末に手動でコマンドを入力してファイルの転送などを行いシステムコールを確認したところ，連続のsendto呼び出しは見られなかった．スクリプトファイルを利用してファイルの転送を行う場合も，同様にsendtoを連続で呼び出していることを確認できなかった．sendtoだけを呼び出すプログラムをtelnet，sshを使用して端末上で実行した場合，selectのシステムコールが呼び出されsendtoが2回以上連続で呼び出されていることが確認できなかった．sshやtelnetを利用して遠隔操作を行う場合や他の端末にメッセージを送信する場合にはsendtoが2回以上連続で呼び出されていることがないため誤検知することはないと考えられるため，これらの検知条件は妥当だと考える．
 
 %実験環境も記載する
 \section{straceコマンドによる監視対象のプロセスの実行速度の調査}
