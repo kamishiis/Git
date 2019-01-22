@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {3.4}マルウェア探索動作による負荷と検知における制約事項}{13}
 \contentsline {chapter}{\numberline {第4章}システムコール呼び出し履歴を用いた検知手法の提案}{15}
 \contentsline {section}{\numberline {4.1}新たな検知手法の必要性}{15}
-\contentsline {section}{\numberline {4.2}Miraiの特徴的な動作に基づく検知手法}{15}
+\contentsline {section}{\numberline {4.2}Miraiの特徴的な動作に基づく検知条件}{15}
 \contentsline {section}{\numberline {4.3}誤検知の可能性}{16}
 \contentsline {section}{\numberline {4.4}straceコマンドによる監視対象のプロセスの実行速度の調査}{17}
 \contentsline {section}{\numberline {4.5}システムコール呼び出し履歴を用いた検知手法の提案}{18}
