@@ -52,67 +52,66 @@ Clam AntiVirusを利用した場合には，平均CPU使用率が24．27\%，メ
 提案システムによるハニーポットで収集したマルウェアの判別結果を表\ref{tab:malware}に示す．プログラムの判別結果を表\ref{tab:detect}に示し，Accuracy，TPR，TNR，FPR，FNRの結果を表\ref{tab:result}に示す．
 %提案システムによるプログラムの判別結果を表，\ref{tab:detect}に示し，Accuracy，TPR，TNR，FPR，FNRの結果を表\ref{tab:result}に示す．
 \begin{small}
-\begin{flushleft}
-\begin{longtable}{|c|c|c|c|}
+\begin{longtable}{|c|c|c|l|}
+    
     \caption{49検体のマルウェアの種類と検知の可否}
     \label{tab:malware} \\
-    
     \hline
-    検体番号   & マルウェアの種類             & 検知の可否 & 検知できない理由                      \\ \hline
-    \endhead
-        1  & Linux.Mirai.793      & 可能    & -                             \\ \hline
-        2  & Linux.Mirai.793      & 可能    & -                             \\ \hline
-        3  & Linux/DDoS-Xor.A     & 可能    & -                             \\ \hline
-        4  & Linux/Mirai          & 可能    & -                             \\ \hline
-        5  & Linux/Mirai          & 可能    & -                             \\ \hline
-        6  & Linux/Mirai          & 可能    & -                             \\ \hline
-        7  & Linux/mirai.d        & 可能    & -                             \\ \hline
-        8  & Linux/mirai.d        & 可能    & -                             \\ \hline
-        9  & Linux/mirai.d        & 可能    & -                             \\ \hline
-        10 & Linux/mirai.d        & 可能    & -                             \\ \hline
-        11 & Linux/mirai.d        & 可能    & -                             \\ \hline
-        12 & Linux/mirai.d        & 可能    & -                             \\ \hline
-        13 & Linux/Mirai.f        & 可能    & -                             \\ \hline
-        14 & Linux/Mirai.f        & 可能    & -                             \\ \hline
-        15 & Linux/Mirai.f        & 可能    & -                             \\ \hline
-        16 & Linux/Mirai.f        & 可能    & -                             \\ \hline
-        17 & Linux/Mirai.f        & 可能    & -                             \\ \hline
-        18 & Linux/Mirai.g        & 可能    & -                             \\ \hline
+    検体   & マルウェアの種類             & 検知の可否 & 検知できない理由                      \\ \hline
+    \endhead 
+    
+        1  & Linux.Mirai.793      & 可能    & \multicolumn{1}{c|}{-} \\ \hline
+        2  & Linux.Mirai.793      & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        3  & Linux/DDoS-Xor.A     & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        4  & Linux/Mirai          & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        5  & Linux/Mirai          & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        6  & Linux/Mirai          & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        7  & Linux/mirai.d        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        8  & Linux/mirai.d        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        9  & Linux/mirai.d        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        10 & Linux/mirai.d        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        11 & Linux/mirai.d        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        12 & Linux/mirai.d        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        13 & Linux/Mirai.f        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        14 & Linux/Mirai.f        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        15 & Linux/Mirai.f        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        16 & Linux/Mirai.f        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        17 & Linux/Mirai.f        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        18 & Linux/Mirai.g        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
         19 & Linux/Mirai.g        & 不可    & sendto呼び出しに指定された送信先のポートが52869 \\ \hline
-        20 & Linux/Mirai.l        & 可能    & -                             \\ \hline
-        21 & Linux/Mirai.l        & 可能    & -                             \\ \hline
-        22 & Linux/Mirai.l        & 可能    & -                             \\ \hline
-        23 & Linux/Mirai.l        & 可能    & -                             \\ \hline
-        24 & Linux/Mirai.l        & 可能    & -                             \\ \hline
-        25 & Linux/Mirai.l        & 可能    & -                             \\ \hline
+        20 & Linux/Mirai.l        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        21 & Linux/Mirai.l        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        22 & Linux/Mirai.l        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        23 & Linux/Mirai.l        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        24 & Linux/Mirai.l        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        25 & Linux/Mirai.l        & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
         26 & Linux/Mirai.l       
-         & 可能    & -                             \\ \hline
+         & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
         27 & Linux/Mirai.l        & 不可    & 呼び出されているシステムコールがsendtoではなくsend       \\ \hline
         28 & Linux/Mirai.l        & 不可    & sendto呼び出しに指定された送信先のポートが80    \\ \hline
-        29 & RDN/Generic BackDoor & 不可    & スキャン活動を行っていない                 \\ \hline
-        30 & RDN/Generic BackDoor & 不可    &   \\ \hline
-        31 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        32 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        33 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        34 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        35 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
+        29 & RDN/Generic BackDoor & 不可    & スキャン活動を観測できない                 \\ \hline
+        30 & RDN/Generic BackDoor & 不可    & スキャン活動を観測できない\\ \hline
+        31 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        32 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        33 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        34 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        35 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
         36 & RDN/Generic BackDoor & 不可    & 呼び出されているシステムコールがsendtoではなくsend       \\ \hline
-        37 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        38 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        39 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        40 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        41 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        42 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        43 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        44 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
+        37 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        38 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        39 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        40 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        41 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        42 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        43 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        44 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
         45 & RDN/Generic BackDoor & 不可    & sendto呼び出しに指定されたポートが37215      \\ \hline
-        46 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        47 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
-        48 & RDN/Generic BackDoor & 可能    & -                             \\ \hline
+        46 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        47 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
+        48 & RDN/Generic BackDoor & 可能    & \multicolumn{1}{c|}{-}                             \\ \hline
         49 & RDN/Generic BackDoor & 不可    & 検知プログラムの強制終了                  \\ \hline
     
 \end{longtable}
-\end{flushleft}
 \end{small}
 
 \begin{table}[h]
@@ -138,7 +137,7 @@ Clam AntiVirusを利用した場合には，平均CPU使用率が24．27\%，メ
     \end{tabular}
 \end{table}
 
-評価の結果，Accuaryは91.3\%と高い精度となっており，TPRの値が，83.4\%であり，FPRの値が0\%である．TPRが83.4\%のため，Mirai亜種の多くのマルウェアは作成時に元にしたMiraiのスキャン機能をそのまま流用している場合が多いことがわかった．しかし，スキャン活動を行っている一部のマルウェアは提案システムによって検出することができなかった．検出ができなかった要因としてスキャン活動を行っていない場合とスキャン活動を行っている際にスキャンしているポートが23ではなく，他のポートをスキャンしてため，検知条件に一致しなかったためである．TNRが高い精度を示した理由には，対象となっている正規プログラムがubuntu 16.04 LTSに標準でインストールされているプログラムを利用している事が挙げられる．検知条件に一致する組織や個人で作成されたプログラムではsendtoを連続して呼び出すプログラムが存在すると考えられるため誤検知をする可能性がある．
+評価の結果，Accuaryは91.3\%と高い精度となっており，TPRの値が，83.4\%であり，FPRの値が0\%である．TPRが83.4\%のため，Mirai亜種の多くのマルウェアは作成時に元にしたMiraiのスキャン機能をそのまま流用している場合が多いことがわかった．しかし，スキャン活動を行っている一部のマルウェアは提案システムによって検出することができなかった．検出ができなかった要因としてスキャン活動が観測できない場合，スキャン活動を行っている際にスキャンしているポートが23ではなく他のポートをスキャンしている場合，マルウェアによって検知システムが強制終了させられる場合が挙げられる．TNRが高い精度を示した理由には，対象となっている正規プログラムがubuntu 16.04 LTSに標準でインストールされているプログラムを利用している事が挙げられる．検知条件に一致する組織や個人で作成されたプログラムではsendtoを連続して呼び出すプログラムが存在すると考えられるため誤検知をする可能性がある．
 
 \subsection{考察}
 システムコール呼び出し履歴を用いた検知手法とClamAVのメモリ使用率，CPU使用率の比較を行った結果，メモリ使用率が48.4\%減，CPU使用率が97.6\%減となったことから，システムコール呼び出し履歴を用いた検知手法はIoTデバイスの本来の動作を阻害することがなくIoTデバイスがマルウェアに感染していないことを確認する事ができる．Accuaryは91.3\%と高い精度となっており，DDoS攻撃を行うマルウェアを検出するのに有効である．したがって，マルウェアの内部関数によって呼び出されるシステムコール系列をもとにマルウェアを検出することによって，IoTデバイスなどの計算資源の乏しい端末でもホスト上でのマルウェアに対して有効なセキュリティ対策が行えると考えられる．
