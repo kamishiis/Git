@@ -28,7 +28,7 @@
 \contentsline {section}{\numberline {5.2}Miraiとその亜種マルウェアを対象とする判別性能評価}{22}
 \contentsline {subsection}{\numberline {5.2.1}ハニーポットによるマルウェアの収集}{22}
 \contentsline {subsection}{\numberline {5.2.2}提案手法によるマルウェアの検知精度評価}{23}
-\contentsline {subsection}{\numberline {5.2.3}考察}{24}
-\contentsline {chapter}{\numberline {第6章}結論}{25}
-\contentsline {section}{\numberline {6.1}まとめ}{25}
-\contentsline {section}{\numberline {6.2}今後の展望}{25}
+\contentsline {subsection}{\numberline {5.2.3}考察}{25}
+\contentsline {chapter}{\numberline {第6章}結論}{26}
+\contentsline {section}{\numberline {6.1}まとめ}{26}
+\contentsline {section}{\numberline {6.2}今後の展望}{26}

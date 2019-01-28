@@ -20,6 +20,12 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/dcolumn.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/dcolumn.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
+INPUT c:/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
 OUTPUT Structure/Author.aux
 INPUT Structure/Author.tex
 INPUT Structure/Author.tex
