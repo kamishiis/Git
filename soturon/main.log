@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  28 JAN 2019 14:18
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  28 JAN 2019 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -88,8 +88,14 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \@input{Structure/Author.aux}
 \openout2 = `Structure/Author.aux'.
 
-(./Structure/Author.tex)
-No file main.aux.
+(./Structure/Author.tex) (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux
+
+LaTeX Warning: Label `tab:malware' multiply defined.
+
+
+LaTeX Warning: Label `tab:malware' multiply defined.
+
+) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -110,7 +116,7 @@ LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 \openout2 = `Structure/Overview.aux'.
 
-(./Structure/Overview.tex
+ (./Structure/Overview.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
@@ -142,94 +148,46 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 23.
-
-No file main.toc.
-\tf@toc=\write3
-\openout3 = `main.toc'.
+ (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
 
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 23.
+(Font)              using `JT1/mc/m/n' instead on input line 32.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 23.
+(Font)              using `JY1/mc/m/n' instead on input line 32.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
 [1
 
 ])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [2])
 \openout2 = `Structure/Introduction.aux'.
 
  (./Structure/Introduction.tex
 第 1 章
-
-LaTeX Warning: Reference `fig:IoT' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Citation `IoT' on page 1 undefined on input line 9.
-
 File: figures/IoT_device.eps Graphic file (type eps)
-<figures/IoT_device.eps>
-
-LaTeX Warning: Citation `IoT' on page 1 undefined on input line 13.
-
-[1
+<figures/IoT_device.eps> [1
 
 
 
-]
+] [2
 
-LaTeX Warning: Citation `Mirai' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `Dyn' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `code' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `Wicked' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `Satori' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `Okiru' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `newMirai' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `国立' on page 2 undefined on input line 23.
-
-[2
-
-]
-
-LaTeX Warning: Citation `実践' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Reference `fig:env' on page 3 undefined on input line 33.
-
-[3]
+] [3]
 File: figures/env.eps Graphic file (type eps)
  <figures/env.eps>
 File: figures/s.eps Graphic file (type eps)
- <figures/s.eps>
-
-LaTeX Warning: Reference `fig:Mirai_system' on page 4 undefined on input line 55.
-
-
-LaTeX Warning: Reference `tab:attack' on page 4 undefined on input line 59.
-
-[4]
-Overfull \hbox (31.39601pt too wide) in paragraph at lines 65--79
+ <figures/s.eps> [4]
+Overfull \hbox (31.39601pt too wide) in paragraph at lines 63--77
  [][] 
  []
 
@@ -238,59 +196,22 @@ Overfull \hbox (31.39601pt too wide) in paragraph at lines 65--79
 
  (./Structure/Related_research.tex
 第 2 章
-
-LaTeX Warning: Citation `攻撃性能評価を行った研究' on page 7 undefined on input line 6.
-
-
-LaTeX Warning: Citation `観測と分析' on page 7 undefined on input line 8.
-
-
-LaTeX Warning: Citation `パターン' on page 7 undefined on input line 14.
-
-
-LaTeX Warning: Citation `挙動の差異' on page 7 undefined on input line 15.
-
-
-LaTeX Warning: Citation `アノマリ' on page 7 undefined on input line 17.
-
 [7
 
 
 
 ]
-
-LaTeX Warning: Citation `Arbor' on page 8 undefined on input line 22.
-
-
-LaTeX Warning: Reference `fig:arbsys' on page 8 undefined on input line 22.
-
 File: figures/arbor.eps Graphic file (type eps)
-<figures/arbor.eps>
+ <figures/arbor.eps>
 Overfull \hbox (9.34738pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-
-LaTeX Warning: Citation `ar' on page 8 undefined on input line 26.
-
-[8]
-
-LaTeX Warning: Citation `ClamAV' on page 9 undefined on input line 32.
-
-) [9]
+[8]) [9]
 \openout2 = `Structure/symbol.aux'.
 
  (./Structure/symbol.tex
 第 3 章
-
-LaTeX Warning: Citation `code' on page 10 undefined on input line 8.
-
-
-LaTeX Warning: Reference `fig:kaiseki' on page 10 undefined on input line 8.
-
-
-LaTeX Warning: Reference `tab:malware' on page 10 undefined on input line 8.
-
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 16.
 (c:/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -307,9 +228,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 \OT1/cmr/m/n/10.95 http://192.168.32.10:80/bins/mirai.x86
  []
 
-
-LaTeX Warning: Reference `tab:malware' on page 10 undefined on input line 22.
-
 File: figures/VM.eps Graphic file (type eps)
 <figures/VM.eps>
 
@@ -319,24 +237,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-]
-
-LaTeX Warning: Reference `fig:symbol' on page 11 undefined on input line 32.
-
-[11]
+] [11]
 File: figures/system.eps Graphic file (type eps)
  <figures/system.eps> [12]
-
-LaTeX Warning: Reference `tab:spec' on page 13 undefined on input line 60.
-
-
-LaTeX Warning: Reference `fig:symbol_cpu' on page 13 undefined on input line 74.
-
-
-LaTeX Warning: Reference `fig:symbol_mem' on page 13 undefined on input line 74.
-
 File: figures/cpu.eps Graphic file (type eps)
-<figures/cpu.eps>
+ <figures/cpu.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -355,49 +260,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-
-LaTeX Warning: Reference `tab:write' on page 16 undefined on input line 27.
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
-(c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
-
-
-LaTeX Warning: Reference `tab:write' on page 16 undefined on input line 41.
-
-[16]
-
-LaTeX Warning: Citation `Linux' on page 17 undefined on input line 48.
-
-
-LaTeX Warning: Reference `tab:command' on page 17 undefined on input line 48.
-
-
-LaTeX Warning: Reference `tab:command' on page 17 undefined on input line 65.
-
-
-LaTeX Warning: Reference `tab:strace_result' on page 17 undefined on input line 66.
-
-[17]
+ [16] [17]
 File: figures/strace.eps Graphic file (type eps)
- <figures/strace.eps>
-
-LaTeX Warning: Reference `fig:strace' on page 18 undefined on input line 104.
-
-[18]) [19]
+ <figures/strace.eps> [18]) [19]
 \openout2 = `Structure/Consider.aux'.
 
  (./Structure/Consider.tex
 第 5 章
-
-LaTeX Warning: Reference `fig:strace_cpu' on page 20 undefined on input line 7.
-
-
-LaTeX Warning: Reference `fig:strace_mem' on page 20 undefined on input line 7.
-
 [20
 
 
@@ -409,28 +284,14 @@ File: figures/strace_mem.eps Graphic file (type eps)
  <figures/strace_mem.eps> [21
 
 ]
-
-LaTeX Warning: Reference `fig:honey' on page 22 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Cowrie' on page 22 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Virus' on page 22 undefined on input line 31.
-
 File: figures/honey.eps Graphic file (type eps)
-<figures/honey.eps> [22]
-
-LaTeX Warning: Reference `tab:malware' on page 23 undefined on input line 52.
-
-
-LaTeX Warning: Reference `tab:detect' on page 23 undefined on input line 52.
+ <figures/honey.eps> [22]
+Overfull \hbox (73.77342pt too wide) in alignment at lines 56--62
+ [] [] [] [] 
+ []
 
 
-LaTeX Warning: Reference `tab:result' on page 23 undefined on input line 52.
-
-
-Overfull \hbox (35.99863pt too wide) in alignment at lines 62--82
+Overfull \hbox (73.77342pt too wide) in alignment at lines 62--82
  [] [] [] [] 
  []
 
@@ -443,10 +304,6 @@ Overfull \hbox (73.77342pt too wide) in alignment at lines 82--103
 Overfull \hbox (73.77342pt too wide) in alignment at lines 103--114
  [] [] [] [] 
  []
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 5.1 on input line 114.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -480,12 +337,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
  (./Structure/Appendix.tex
 付 録 A  
 
-Overfull \hbox (0.35374pt too wide) in alignment at lines 8--28
+Overfull \hbox (4.6121pt too wide) in alignment at lines 5--8
  [] [] 
  []
 
 
-Overfull \hbox (0.35374pt too wide) in alignment at lines 28--48
+Overfull \hbox (4.6121pt too wide) in alignment at lines 8--28
+ [] [] 
+ []
+
+
+Overfull \hbox (4.6121pt too wide) in alignment at lines 28--48
  [] [] 
  []
 
@@ -498,47 +360,33 @@ Overfull \hbox (4.6121pt too wide) in alignment at lines 48--59
 
 
 
-]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table A.1 on input line 59.
-
-[32]
-No file main.lof.
+] [32] (./main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
-[33
+ [33
 
-]
-No file main.lot.
+] (./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
 ) [34
 
-]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-(./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
+] (./main.aux (./Structure/Overview.aux) (./Structure/Introduction.aux) (./Structure/Related_research.aux) (./Structure/symbol.aux) (./Structure/strace.aux) (./Structure/Consider.aux) (./Structure/Conclusion.aux) (./Structure/Acknowledgments.aux) (./Structure/Reference.aux) (./Structure/Appendix.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1124 strings out of 493281
- 14314 string characters out of 6148127
- 96620 words of memory out of 5000000
- 5017 multiletter control sequences out of 15000+600000
+ 1162 strings out of 493281
+ 15110 string characters out of 6148127
+ 99754 words of memory out of 5000000
+ 5027 multiletter control sequences out of 15000+600000
  18074 words of font info for 70 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 28i,14n,25p,1929b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,14n,25p,1932b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (37 pages, 125228 bytes).
+Output written on main.dvi (38 pages, 140776 bytes).
