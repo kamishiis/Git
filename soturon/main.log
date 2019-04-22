@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  28 JAN 2019 19:31
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.sjis) (TeX Live 2018/W32TeX) (preloaded format=platex 2019.1.9)  12 FEB 2019 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -267,8 +267,8 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
  [16] [17]
-File: figures/strace.eps Graphic file (type eps)
- <figures/strace.eps> [18]) [19]
+File: figures/strace_system.eps Graphic file (type eps)
+ <figures/strace_system.eps> [18]) [19]
 \openout2 = `Structure/Consider.aux'.
 
  (./Structure/Consider.tex
@@ -378,12 +378,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1161 strings out of 493281
- 15098 string characters out of 6148127
- 99745 words of memory out of 5000000
+ 1162 strings out of 493281
+ 15125 string characters out of 6148127
+ 99767 words of memory out of 5000000
  5026 multiletter control sequences out of 15000+600000
  18074 words of font info for 70 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  31i,14n,25p,1910b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (38 pages, 140892 bytes).
+Output written on main.dvi (38 pages, 142588 bytes).
