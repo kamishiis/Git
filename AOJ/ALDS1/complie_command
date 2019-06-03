@@ -1,0 +1,2 @@
+コンパイルコマンドについて
+g++ -o helloworld main.cpp

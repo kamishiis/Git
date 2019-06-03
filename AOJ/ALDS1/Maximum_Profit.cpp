@@ -5,7 +5,7 @@ int main(){
   int n,tmp;
   int max;
   int min;
-  cin >> n;
+  cin >> n; 
   int prime[n];
 
   for(int j=0;j<n;j++){
