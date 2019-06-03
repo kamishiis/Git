@@ -1,4 +1,4 @@
-Class Stable_Sort{
+class Stable_Sort{
 
   static void  print(String[] s){
             for(int i=0;i<s.length; i++){
