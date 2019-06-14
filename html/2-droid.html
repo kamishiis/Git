@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="droid.css" rel="stylesheet" type="text/css">
+<title>droid lab</title>
+<script type="text/javascript">
+  function changeImg(filename){
+    document.getElementById("droid").src = filename;
+  }
+  </script>
+</head>
+<body>
+    <h1>droid ラボ</h1>
+    <h2>ドロイドくんで遊ぶ</h2>
+    <p><img id="droid" src="droid.gif" alt="ドロイドくん"
+      onMouseOver="changeImg('hello.gif')"
+      onMouseOut="changeImg('droid.gif')"></p>
+    <p>いろいろな動きを試してみましょう</p>
+    <h3>アクションMENU</h3>
+    <ul>
+      <li onClick="alert('ドロイドデス')">話す</li>
+      <li onClick="changeImg('break.gif')">こわす </li>
+      <li onClick="changeImg('stop.gif')">停止</li>
+      <li onClick="changeImg('plenty.gif')">ふやす</li>
+      <li onClick="changeImg('model.gif')">モデルチェンジ</li>
+    </ul>
+  </body>
+  </html>
